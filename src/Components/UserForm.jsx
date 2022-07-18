@@ -13,7 +13,7 @@ const UserForm = () => {
   };
 
   return (
-    <div>
+    <div className="main">
       <table >
         <thead >
           <tr >
