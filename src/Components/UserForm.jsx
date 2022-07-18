@@ -15,15 +15,15 @@ const UserForm = () => {
   return (
     <div>
       <table >
-        <thead>
-          <tr>
-          <th>Name</th>
-          <th>Month</th>
-          <th>Caeser</th>
+        <thead >
+          <tr >
+          <th >Full Name</th>
+          <th >Month of Birth</th>
+          <th>Encoded Full Name</th>
           </tr>
         </thead>
         {show.map((e) => (
-          <tbody>
+          <tbody >
             <tr>
             <td>{e.name}</td>
             <td>{e.month}</td>
