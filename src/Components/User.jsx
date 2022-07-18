@@ -27,7 +27,7 @@ const User = () => {
     e.preventDefault();
     // console.log(typeof (+form.month));
     form.name = form.name.toUpperCase();
-    let alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    let alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKL";
     // let alphabets="abcdefghijklmnopqrstuvwxyz"
     // form.cipher=""
     let bag = "";
@@ -38,6 +38,7 @@ const User = () => {
         for (let j = 0; j < alphabets.length; j++) {
           if (form.name[i] === alphabets[j]) {
             bag += alphabets[j +(+form.month)];
+           break;
           }
         }
       }
